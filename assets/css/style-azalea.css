@@ -6465,7 +6465,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .header-wrap { position: relative; width: 100%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
 
-.header-logo { margin: 25px 0; flex-shrink: 0; }
+.header-logo { margin: 6px 0; flex-shrink: 0; }
 
 .header-logo-ls { display: flex; align-items: center; }
 
@@ -6513,11 +6513,11 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .logo-light, .is-transparent:not(.has-fixed) .logo-dark, .is-dark .logo-dark { display: none; }
 
-.logo img { height: 100px; transition: all .4s; }
+.logo img { height: 36px; transition: all .4s; }
 
-.logo-md img { height: 100px; }
+.logo-md img { height: 44px; }
 
-.logo-lg img { height: 100px; }
+.logo-lg img { height: 52px; }
 
 @media (min-width: 992px) { .header-navbar:not(.header-navbar-classic) { height: auto; width: auto; left: 0; }
   .header-main { padding: 20px 0; }
@@ -6525,9 +6525,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .header-container:not(.container) { padding: 0 25px; }
   .header-container-s1:not(.container) { padding: 0 25px; }
   .header-banner { min-height: 98px; }
-  .logo img { height: 100px; }
-  .logo-md img { height: 100px; }
-  .logo-lg img { height: 100px; } }
+  .logo img { height: 40px; }
+  .logo-md img { height: 50px; }
+  .logo-lg img { height: 60px; } }
 
 @media (min-width: 1200px) { .header-container:not(.container) { padding: 0 25px; }
   .header-container-s1:not(.container) { padding: 0 35px; } }
@@ -6725,7 +6725,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .secondary-navbar { padding: 0; display: block; }
   .secondary-menu-link { padding: 20px 38px; } }
 
-@media (min-width: 992px) and (max-width: 1199px) { .logo img { height: 80px; }
+@media (min-width: 992px) and (max-width: 1199px) { .logo img { height: 32px; }
   .header-navbar-s1 .menu > .menu-item > a { padding: 20px 4px; font-size: 12px; font-weight: 500; }
   .menu-btns > li { padding: 6px; }
   .menu-btns .btn { font-size: 13px; line-height: 20px; padding: 10px 15px; min-width: 0; }
